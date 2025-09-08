@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+:root{
+  --color-primary-100:#FFFFFF;
+  --color-primary-500:#FF6636;
+  --text-16xl:150px;
+}
