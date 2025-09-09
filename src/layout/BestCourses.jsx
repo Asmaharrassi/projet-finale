@@ -4,7 +4,7 @@ function BestCourses() {
   const [courses, setCourses] = useState([]);
 
   useEffect(() => {
-    // API وهمي (mock data)
+    // API (mock data)
     const fakeData = [
       {
         title: "React for Beginners",
@@ -23,7 +23,7 @@ function BestCourses() {
       }
     ];
 
-    // نحاكي API call
+    // API call
     setTimeout(() => {
       setCourses(fakeData);
     }, 1000);

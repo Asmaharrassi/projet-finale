@@ -27,7 +27,7 @@ export default function TopNavbar() {
     {/* Col 3: Icons + Buttons */}
 <div className="flex items-center gap-10 flex-shrink-0">
   
-  {/* أيقونات */}
+  {/* icons*/}
   <div className="flex items-center gap-3">
     <button className="p-2 rounded-md hover:bg-gray-100">
       <FiBell className="text-gray-600 text-lg" />
@@ -40,7 +40,7 @@ export default function TopNavbar() {
     </button>
   </div>
 
-  {/* أزرار */}
+  {/* button*/}
   <div className="flex gap-3">
     <Button
       variant="custom"

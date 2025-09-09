@@ -1,3 +1,4 @@
+import teacherImg from "../assets/Teacher.png";
 function Header() {
     return (
       <header className="bg-white py-16 px-6 grid grid-cols-1 md:grid-cols-2 items-center gap-12">
@@ -17,7 +18,7 @@ function Header() {
         {/* 🔹 Right Section: Image */}
         <div className="flex justify-center">
           <img
-            src="https://img.freepik.com/free-photo/smiley-woman-working-office_23-2149311922.jpg"
+            src={teacherImg}
             alt="Learning"
             className="rounded-lg shadow-lg max-w-full h-auto"
           />
